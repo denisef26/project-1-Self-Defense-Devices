@@ -1,0 +1,235 @@
+/* The code on lines 2-4 centers the text of all h1's on the page.*/
+h1{
+    text-align:center;
+}
+
+.mainbar{
+  display:flex;
+  justify-content: flex-start;
+  background-color: #F52D00;
+}
+
+.item1,  .active{
+  display:block;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #F52D00;
+  color: white;
+  
+}
+
+.item1:hover {
+  background-color: orangered;
+}
+
+.active{
+background-color: black;
+  
+}
+
+  .active:hover {
+  background-color: darkslategray;
+  }
+
+
+/*  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F52D00;
+}
+
+li {
+  float: left;
+}
+ 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: orangered;
+}
+
+.active{
+  background-color: black;
+  color: white;
+}
+
+.active:hover{
+    background-color: darkslategray;
+} */
+
+.one{
+  width: 1500px;
+  height: 480px;
+  
+}
+
+.intro{
+  
+  margin: 50px;
+}
+
+.bg{
+padding: 50px;
+border: solid white;
+  background: white;
+margin: 45px;
+}
+
+.heading3 {
+border: solid 50px;
+border-color: rgba(0,0,0,0);
+width: 90%;
+}
+
+/* .text {
+font-size: 16px;
+font-family: "Times New Roman", Times, serif;
+padding: 0px;
+margin: 35px;
+  font-family:  */
+}
+
+/*The code on lines 6-11 centers all images on the page and gives them a width of 400px.*/
+
+.one, .two, .three, .four{
+  display: block;
+justify-content: center;;
+}
+
+body{
+  background-color:#FF8B16}
+
+
+h2{
+color: #F52D00 
+  
+}
+
+.lists{
+color: blue
+  
+} 
+
+.two{
+width: 1300px;
+  height: 500px;
+  
+}
+
+.three{
+  width: 1300px;
+  height: 500px;
+}
+
+.four{
+  width: 1100px;
+  height: 600px
+}
+
+/* The code on lines 19-22 aligns all the sections horizontally on the bottom*/
+.sectionsContainer{
+    display:flex;
+    justify-content:center; 
+    space-evenly;
+}
+
+.section{
+    border: 5px black solid;
+    margin:5px;
+}
+
+
+/* Footer stuff below */
+
+.footer{
+  
+  display:flex;
+  justify-content: center;
+  padding-bottom: 14px;
+}
+
+
+ 
+.item2, #btn{
+display: flex;
+  justify-content: center;
+text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+
+.gallery{
+display:block;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.hidden {
+display: none;
+text-decoration: none;
+  font-size: 18px;
+  color: ;
+        }
+
+/* .item2{
+  border: 1px #282828;
+  padding: 15px;
+  font-size: 13px;
+  color: black;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.item2:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  transition: transform 0.25s ease-out;
+}
+
+.item2:hover:after {
+  transform: scaleX(1);
+}
+
+.item {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 15px;
+  color: #f5f5f5;
+  padding: 15px;}
+ */
+
+
+#copyright{
+display: block;
+  padding-left: 14px 16px;
+  text-align: center;
+}
+
+/* Privacy Policy */
+
+.policy{
+  display: block;
+  justify-content: center;
+background-color:#FF8B16;
+  
+}
+
+
+
